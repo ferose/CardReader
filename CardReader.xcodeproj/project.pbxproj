@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E44981701BFE38B700069414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E449816F1BFE38B700069414 /* main.m */; };
+		E44981731BFE38B700069414 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E44981721BFE38B700069414 /* AppDelegate.m */; };
+		E44981761BFE38B700069414 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44981751BFE38B700069414 /* ViewController.m */; };
+		E44981791BFE38B700069414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44981771BFE38B700069414 /* Main.storyboard */; };
+		E449817B1BFE38B700069414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E449817A1BFE38B700069414 /* Assets.xcassets */; };
+		E449817E1BFE38B700069414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E449817C1BFE38B700069414 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E449816B1BFE38B700069414 /* CardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E449816F1BFE38B700069414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E44981711BFE38B700069414 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E44981721BFE38B700069414 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E44981741BFE38B700069414 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E44981751BFE38B700069414 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E44981781BFE38B700069414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E449817A1BFE38B700069414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E449817D1BFE38B700069414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E449817F1BFE38B700069414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E44981681BFE38B700069414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E44981621BFE38B700069414 = {
+			isa = PBXGroup;
+			children = (
+				E449816D1BFE38B700069414 /* CardReader */,
+				E449816C1BFE38B700069414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E449816C1BFE38B700069414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E449816B1BFE38B700069414 /* CardReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E449816D1BFE38B700069414 /* CardReader */ = {
+			isa = PBXGroup;
+			children = (
+				E44981711BFE38B700069414 /* AppDelegate.h */,
+				E44981721BFE38B700069414 /* AppDelegate.m */,
+				E44981741BFE38B700069414 /* ViewController.h */,
+				E44981751BFE38B700069414 /* ViewController.m */,
+				E44981771BFE38B700069414 /* Main.storyboard */,
+				E449817A1BFE38B700069414 /* Assets.xcassets */,
+				E449817C1BFE38B700069414 /* LaunchScreen.storyboard */,
+				E449817F1BFE38B700069414 /* Info.plist */,
+				E449816E1BFE38B700069414 /* Supporting Files */,
+			);
+			path = CardReader;
+			sourceTree = "<group>";
+		};
+		E449816E1BFE38B700069414 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E449816F1BFE38B700069414 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E449816A1BFE38B700069414 /* CardReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E44981821BFE38B700069414 /* Build configuration list for PBXNativeTarget "CardReader" */;
+			buildPhases = (
+				E44981671BFE38B700069414 /* Sources */,
+				E44981681BFE38B700069414 /* Frameworks */,
+				E44981691BFE38B700069414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardReader;
+			productName = CardReader;
+			productReference = E449816B1BFE38B700069414 /* CardReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E44981631BFE38B700069414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Ferose Babu";
+				TargetAttributes = {
+					E449816A1BFE38B700069414 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = E44981661BFE38B700069414 /* Build configuration list for PBXProject "CardReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E44981621BFE38B700069414;
+			productRefGroup = E449816C1BFE38B700069414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E449816A1BFE38B700069414 /* CardReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E44981691BFE38B700069414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E449817E1BFE38B700069414 /* LaunchScreen.storyboard in Resources */,
+				E449817B1BFE38B700069414 /* Assets.xcassets in Resources */,
+				E44981791BFE38B700069414 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E44981671BFE38B700069414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44981761BFE38B700069414 /* ViewController.m in Sources */,
+				E44981731BFE38B700069414 /* AppDelegate.m in Sources */,
+				E44981701BFE38B700069414 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E44981771BFE38B700069414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44981781BFE38B700069414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E449817C1BFE38B700069414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E449817D1BFE38B700069414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E44981801BFE38B700069414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E44981811BFE38B700069414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E44981831BFE38B700069414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FER.CardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E44981841BFE38B700069414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FER.CardReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E44981661BFE38B700069414 /* Build configuration list for PBXProject "CardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44981801BFE38B700069414 /* Debug */,
+				E44981811BFE38B700069414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E44981821BFE38B700069414 /* Build configuration list for PBXNativeTarget "CardReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E44981831BFE38B700069414 /* Debug */,
+				E44981841BFE38B700069414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E44981631BFE38B700069414 /* Project object */;
+}
