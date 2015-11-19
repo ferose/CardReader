@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49B5DA5FD1590F74E9E48BE1 /* libPods-CardReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF503E14A4AF08F32773A0C /* libPods-CardReader.a */; };
 		E44981701BFE38B700069414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E449816F1BFE38B700069414 /* main.m */; };
 		E44981731BFE38B700069414 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E44981721BFE38B700069414 /* AppDelegate.m */; };
 		E44981761BFE38B700069414 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E44981751BFE38B700069414 /* ViewController.m */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A55B1F3A8E0C557176E4BDF /* Pods-CardReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-CardReader/Pods-CardReader.release.xcconfig"; sourceTree = "<group>"; };
+		3DF503E14A4AF08F32773A0C /* libPods-CardReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CardReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57BD49C679BD78069A0BED9 /* Pods-CardReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CardReader/Pods-CardReader.debug.xcconfig"; sourceTree = "<group>"; };
 		E449816B1BFE38B700069414 /* CardReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E449816F1BFE38B700069414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E44981711BFE38B700069414 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B5DA5FD1590F74E9E48BE1 /* libPods-CardReader.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21B8C5D7B4FD30A7EE856640 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C57BD49C679BD78069A0BED9 /* Pods-CardReader.debug.xcconfig */,
+				1A55B1F3A8E0C557176E4BDF /* Pods-CardReader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		299D809396793BB96AF09B00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DF503E14A4AF08F32773A0C /* libPods-CardReader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E44981621BFE38B700069414 = {
 			isa = PBXGroup;
 			children = (
 				E449816D1BFE38B700069414 /* CardReader */,
 				E449816C1BFE38B700069414 /* Products */,
+				21B8C5D7B4FD30A7EE856640 /* Pods */,
+				299D809396793BB96AF09B00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E44981821BFE38B700069414 /* Build configuration list for PBXNativeTarget "CardReader" */;
 			buildPhases = (
+				DACC7639FD0FD0E8BC37523B /* Check Pods Manifest.lock */,
 				E44981671BFE38B700069414 /* Sources */,
 				E44981681BFE38B700069414 /* Frameworks */,
 				E44981691BFE38B700069414 /* Resources */,
+				B3A1C7F2B5E1E9D88AC0EEE2 /* Embed Pods Frameworks */,
+				9BF50BEFADB113BD9146B59A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,6 +170,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BF50BEFADB113BD9146B59A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardReader/Pods-CardReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A1C7F2B5E1E9D88AC0EEE2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CardReader/Pods-CardReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACC7639FD0FD0E8BC37523B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E44981671BFE38B700069414 /* Sources */ = {
@@ -259,9 +334,11 @@
 		};
 		E44981831BFE38B700069414 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57BD49C679BD78069A0BED9 /* Pods-CardReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CardReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FER.CardReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +347,11 @@
 		};
 		E44981841BFE38B700069414 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A55B1F3A8E0C557176E4BDF /* Pods-CardReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CardReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = FER.CardReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +377,7 @@
 				E44981841BFE38B700069414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
